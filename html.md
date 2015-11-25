@@ -172,7 +172,7 @@ IE 支持通过特定的 <meta> 标签来确定绘制当前页面所应该采用
 <meta name="renderer" content="webkit">
 ```
 
-所有页面必须有 <title>，并尽可能地在不同页面使用不同的标题。
+所有页面必须有 `<title>`，并尽可能地在不同页面使用不同的标题。
 
 ```html
 <title>Page title</title>
