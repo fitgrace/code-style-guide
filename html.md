@@ -10,7 +10,7 @@
 * 所有标签和属性名称一律小写，如果不这么做可能导致与 Angular 的不兼容。
 * 属性值一律使用双引号。
 
-``html
+```html
 <!-- Bad -->
 <h1 CLASS='hello-world'>Hello, world!</h1>
 <P>这是一个相当美好的世界！</P>
@@ -18,10 +18,10 @@
 <!-- Good -->
 <h1 class="hello-world">Hello, world!</h1>
 <p>这是一个相当美好的世界！</p>
-``
+```
 
 不要省略可选的结束标签（closing tag）。
-``html
+```html
 <!-- Bad -->
 <ul>
   <li>apple
@@ -33,4 +33,4 @@
   <li>apple</li>
   <li>banana</li>
 </ul>
-``
+```
